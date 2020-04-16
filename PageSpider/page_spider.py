@@ -13,5 +13,5 @@ if __name__ == "__main__":
     parser.add_argument("-i", "--input", help="File containing urls to read")
     args = parser.parse_args()
     database_file = args.database
-    input_file =args.input
+    input_file = args.input
     main(database=database_file, url_list_file=input_file)
